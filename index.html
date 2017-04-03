@@ -10,18 +10,53 @@
     <body>
         <nav class="container">
             <ul>
-                <li class = "title">Greg's List</li>
-                <li><a href="#">Post</a></li>
-                <li><a href="#">Account</a></li>
+                <li id = "title"><a href="#">Greg's List</a></li>
+                <li class = "links"><a href="#">Post</a></li>
+                <li class = "links"><a href="#">Account</a></li>
             </ul>
         </nav>
         <main>
             <div class = "form-container">
                     <form action="/submit" method = "Post">
                     <label for = "search-jobs">Search Jobs</label><br />
-                    <input type = "text" name = "search-jobs" id = "search-jobs" placeholder="Search software jobs" />
-
+                    <input type = "text" name = "search-jobs" id = "search-jobs" placeholder="Search software jobs"/>
+                    <a href="#">
+                    <img src="images/magnifying-glass.png" class = "icon" alt="magnifying-glass"></a>
                     </form>
+            </div>
+            <div class = " nav-class">
+                <ul class = "nav-buttons">
+                    <li class="prev"><a href="#">prev</a></li>
+                    <li class = "page-number"><a href="#">1 to 100 of 179</a></li>
+                    <li class = "next"> <a href="#">next</a></li>
+                </ul>
+            </div>
+
+            <div class = "results-container">
+                <div class = "results">
+                    <ul class = "results-list" >
+                        <li class = "date">April 3</li>
+                        <li><a href="#">Technical Project Manager</a></li>
+                        <li class = "location">Midtown East</li>
+                    </ul>
+                </div>
+
+                <div class = "results">
+                    <ul class = "results-list">
+                        <li class = "date">April 4</li>
+                        <li><a href="#">Frontend Developer</a></li>
+                        <li class = "location">SoHo</li>
+                    </ul>
+                </div>
+
+                <div class = "results">
+                    <ul class = "results-list">
+                        <li class = "date">April 5</li>
+                        <li><a href="#">Senior Python Developer/ Cofounder</a></li>
+                        <li class = "location">Flatiron</li>
+                    </ul>
+                </div>
+
             </div>
 
 

@@ -18,6 +18,10 @@ nav ul{
 
 }
 
+.title:hover{
+    color: #4E387E;
+}
+
 nav{
     height: 60px;
     background-color: #F0F0F0;
@@ -31,11 +35,12 @@ nav li{
 
 }
 
-.title {
+#title {
     position: absolute;
     left: 10px;
     color: black;
 }
+
 
 nav li::after{
     margin-left: 10px;
@@ -46,6 +51,11 @@ nav a {
     color: #4E387E;
 }
 
+.links:hover{
+    color: black;
+}
+
+
 
 .form-container {
     padding-left: 80px;
@@ -54,12 +64,77 @@ nav a {
 
 form {
     display: inline-block;
+    position: relative;
 }
 
 #search-jobs{
 margin-top: 10px;
+padding-right: 100px;
 }
 .icon {
     height: 30px;
     width: 30px;
+    position: absolute;
+    left: 300px;
+    bottom: 0px;
+    border: 1px solid grey;
+
+}
+.icon:hover{
+    color: blue;
+}
+
+.prev::before {
+    content: "< "
+}
+
+.next::after{
+    content: " >"
+}
+
+.nav-buttons{
+    display: inline-block;
+    list-style: none;
+}
+
+.nav-buttons li{
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-class{
+    padding-left: 38px;
+    margin-top: 20px;
+}
+
+.nav-buttons a {
+    color: black;
+
+}
+.prev, .next, .page-number {
+    border-radius: 5px;
+}
+
+.nav-buttons a:hover{
+    color: blue;
+}
+
+.results-list{
+    list-style: none;
+
+}
+
+.results-list li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.date, .location{
+    color: #D3D3D3;
+}
+
+.results-list li a{
+    font-weight: bold;
 }
