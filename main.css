@@ -6,3 +6,60 @@ body * {
 a {
   text-decoration: none;
 }
+.container {
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+
+}
+
+nav{
+    height: 60px;
+    background-color: #F0F0F0;
+    position: fixed;
+    width: 100%;
+    position: relative;
+}
+
+nav li{
+    display: inline-block;
+
+}
+
+.title {
+    position: absolute;
+    left: 10px;
+    color: black;
+}
+
+nav li::after{
+    margin-left: 10px;
+    content: " ";
+}
+
+nav a {
+    color: #4E387E;
+}
+
+
+.form-container {
+    padding-left: 80px;
+    padding-right: 60px;
+}
+
+form {
+    display: inline-block;
+}
+
+#search-jobs{
+margin-top: 10px;
+}
+.icon {
+    height: 30px;
+    width: 30px;
+}
