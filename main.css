@@ -23,11 +23,12 @@ nav ul{
 }
 
 nav{
-    height: 60px;
+    height: 50px;
     background-color: #F0F0F0;
     position: fixed;
     width: 100%;
     position: relative;
+    border-bottom: 1px solid #D3D3D3;
 }
 
 nav li{
