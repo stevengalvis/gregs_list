@@ -136,6 +136,9 @@ padding-right: 100px;
     color: #D3D3D3;
 }
 
+a:hover{
+    color: black !important;
+}
 .results-list li a{
     font-weight: bold;
 }
